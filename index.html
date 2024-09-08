@@ -11,16 +11,21 @@
         <h1>Générateur de V-Bucks</h1>
         <p>Entrez votre pseudo Epic Games pour commencer :</p>
         <input type="text" id="username" placeholder="Votre pseudo">
-        <button onclick="startGeneration()">Commencer</button>
-
+        
+        <div class="divider"></div>
+        
         <div id="generatorSection" style="display: none;">
             <p>100% Gratuit et sans risque !</p>
+            <img src="vbuck-image.png" alt="V-Bucks" class="vbuck-image">
+            <input type="number" id="vbuckAmount" placeholder="Nombre de V-Bucks">
             <button onclick="generateVbucks()">Générer des V-Bucks</button>
         </div>
-
+        
         <div id="confirmation" style="display: none;">
             <p id="confirmationMessage"></p>
         </div>
+        
+        <button onclick="startGeneration()">Commencer</button>
     </div>
 
     <script src="script.js"></script>
