@@ -8,10 +8,10 @@ function startGeneration() {
 }
 
 function generateVbucks() {
-    var amount = prompt('Combien de V-Bucks voulez-vous générer ?');
+    var amount = document.getElementById('vbuckAmount').value;
     if (amount) {
         document.getElementById('confirmationMessage').innerText = 
-            'Les ' + amount + ' V-Bucks vont être envoyés à votre compte !';
+            'Les ' + amount + ' V-Bucks vont être ajoutés à votre compte. Veuillez patienter...';
         document.getElementById('confirmation').style.display = 'block';
     }
 }
