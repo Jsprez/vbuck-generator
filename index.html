@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur de V-Bucks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Générateur de V-Bucks</h1>
+        <p>Entrez votre pseudo Epic Games pour commencer :</p>
+        <input type="text" id="username" placeholder="Votre pseudo">
+        <button onclick="startGeneration()">Commencer</button>
+
+        <div id="generatorSection" style="display: none;">
+            <p>100% Gratuit et sans risque !</p>
+            <button onclick="generateVbucks()">Générer des V-Bucks</button>
+        </div>
+
+        <div id="confirmation" style="display: none;">
+            <p id="confirmationMessage"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
