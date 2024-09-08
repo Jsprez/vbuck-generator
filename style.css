@@ -1,7 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: #1e1e1e;
+    color: #f0f0f0;
     margin: 0;
     padding: 0;
 }
@@ -11,17 +12,23 @@ body {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #333;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #e0e0e0;
 }
 
 input {
     padding: 10px;
     font-size: 16px;
     margin-top: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #555;
     border-radius: 4px;
+    background-color: #444;
+    color: #f0f0f0;
 }
 
 button {
@@ -39,6 +46,17 @@ button:hover {
     background-color: #0056b3;
 }
 
+.vbuck-image {
+    width: 100px;
+    margin: 20px 0;
+}
+
+.divider {
+    height: 2px;
+    background-color: #555;
+    margin: 20px 0;
+}
+
 #confirmation {
     margin-top: 20px;
 }
@@ -46,5 +64,5 @@ button:hover {
 #confirmation p {
     font-size: 18px;
     font-weight: bold;
-    color: green;
+    color: #4caf50;
 }
